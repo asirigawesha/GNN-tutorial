@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Cayman theme | Cayman is a clean, responsive theme for GitHub Pages.</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Cayman theme" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Cayman is a clean, responsive theme for GitHub Pages." />
+<meta property="og:description" content="Cayman is a clean, responsive theme for GitHub Pages." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Cayman theme" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Cayman theme" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Cayman is a clean, responsive theme for GitHub Pages.","headline":"Cayman theme","name":"Cayman theme","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=db3e8b13c7b422ef30db77468dabeb7e2f62443e">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Cayman theme</h1>
+      <h2 class="project-tagline">Cayman is a clean, responsive theme for GitHub Pages.</h2>
+      
+        <a href="https://github.com/asirigawesha/GNN-tutorial" class="btn">View on GitHub</a>
+      
+      
+        <a href="https://github.com/asirigawesha/GNN-tutorial/zipball/gh-pages" class="btn">Download .zip</a>
+        <a href="https://github.com/asirigawesha/GNN-tutorial/tarball/gh-pages" class="btn">Download .tar.gz</a>
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <p><strong>[UPDATE]</strong> We kindly ask you to fill in this <a href="https://docs.google.com/forms/d/1Am4LBsYtyOVzo3axIRqYOC7vHOB5BQ9aSMyvTsjjF7I/edit">anonymous form</a> regarding the overall quality of the tutorial. As we are planning to present it to other venues, your feedback might be extremely important for us 🙏🙂</p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Graph neural networks (GNNs) have gained prominence in recommendation systems in recent years. By representing the user-item matrix as a bipartite and undirected graph, GNNs have demonstrated their potential to capture short- and long-distance user-item interactions, thereby learning more accurate preference patterns than traditional recommendation approaches. In contrast to previous tutorials on the same topic, this tutorial aims to present and examine three key aspects that characterize GNNs for recommendation: (i) the reproducibility of state-of-the-art approaches, (ii) the potential impact of graph topological characteristics on the performance of these models, and (iii) strategies for learning node representations when training features from scratch or utilizing pre-trained embeddings as additional item information (e.g., multimodal features). The goal is to provide three novel theoretical and practical perspectives on the field, currently subject to debate in graph learning but long been overlooked in the context of recommendation systems.</p>
+
+<h2 id="tutorial-schedule">Tutorial schedule</h2>
+
+<p>Total tutorial duration: 180 minutes</p>
+
+<div class="button-container">
+    <a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/sections/introduction/" class="button">Pt.0 Introduction</a>
+    <a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/sections/reproducibility/" class="button">Pt.1 Reproducibility</a>
+    <a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/sections/graph_topology/" class="button">Pt.2 Graph Topology</a>
+    <a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/sections/node_representation/" class="button">Pt.3 Node Representation</a>
+</div>
+
+<p><strong><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/Part0.pdf">Introduction and background</a></strong> (<em>Tommaso Di Noia</em>): 20 minutes</p>
+
+<ul>
+  <li>Introduction and motivations of the tutorial: 5 minutes</li>
+  <li>Basics concepts of recommender systems &amp; GNNs-based recommendation: 15 minutes</li>
+</ul>
+
+<p><strong><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/Part1.pdf">Reproducibility</a></strong> (<em>Claudio Pomo</em>): 60 minutes</p>
+
+<ul>
+  <li><strong>[<a href="https://colab.research.google.com/drive/1_li7RQ_Rj4JaAVpw1kvuOGhrDpfCL-UQ?usp=sharing">Hands-on #1</a>]</strong> Implementation and reproducibility of GNNs-based recsys in Elliot with PyG and reproducibility issues: 35 minutes</li>
+  <li>Performance comparison of GNNs-based approaches to traditional recommendation systems: 25 minutes</li>
+</ul>
+
+<p><strong>Break and Q&amp;A</strong>: 15 minutes</p>
+
+<p><strong><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/Part2.pdf">Graph topology</a></strong>: 30 minutes</p>
+
+<ul>
+  <li>Concepts and formulations of graph topological properties of the user-item graph (<em>Tommaso Di Noia</em>): 15 minutes</li>
+  <li>Impact of topological graph properties on the performance of GNNs-based recommender systems (<em>Daniele Malitesta</em>): 15 minutes</li>
+</ul>
+
+<p><strong><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/Part3.pdf">Node representation</a></strong> (<em>Daniele Malitesta</em>): 45 minutes</p>
+
+<ul>
+  <li>Design choices to train node embeddings from scratch: 20 minutes</li>
+  <li><strong>[<a href="https://colab.research.google.com/drive/1socyjwzmYNAm3trlquAevq-R1d4zX3KH?usp=sharing">Hands-on #2</a>]</strong> Leveraging item’s side-information (e.g., multimodal features) to represent node embeddings: 25 minutes</li>
+</ul>
+
+<p><strong>Closing remarks and Q&amp;A</strong>: 10 minutes</p>
+
+<h2 id="additional-useful-material">Additional useful material</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Paper</th>
+      <th>Slides</th>
+      <th>Code</th>
+      <th>Venue</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>How Neighborhood Exploration Influences Novelty and Diversity in Graph Collaborative Filtering</td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/papers/MORS.pdf">link</a></td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/MORS.pdf">link</a></td>
+      <td><a href="https://github.com/sisinflab/Novelty-Diversity-Graph">link</a></td>
+      <td>MORS @ RecSys</td>
+      <td>2022</td>
+    </tr>
+    <tr>
+      <td>Auditing Consumer- and Producer-Fairness in Graph Collaborative Filtering</td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/papers/ECIR.pdf">link</a></td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/ECIR.pdf">link</a></td>
+      <td><a href="https://github.com/sisinflab/ECIR2023-Graph-CF">link</a></td>
+      <td>ECIR</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>An Out-of-the-Box Application for Reproducible Graph Collaborative Filtering extending the Elliot Framework</td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/papers/UMAP.pdf">link</a></td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/UMAP.pdf">link</a></td>
+      <td><a href="https://github.com/sisinflab/Graph-Demo">link</a></td>
+      <td>UMAP/GLB @ KDD</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>Challenging the Myth of Graph Collaborative Filtering: a Reasoned and Reproducibility-driven Analysis</td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/papers/RecSys.pdf">link</a></td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/RecSys.pdf">link</a></td>
+      <td><a href="https://github.com/sisinflab/Graph-RSs-Reproducibility">link</a></td>
+      <td>RecSys</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>A Topology-aware Analysis of Graph Collaborative Filtering</td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/papers/arXiv.pdf">link</a></td>
+      <td> </td>
+      <td><a href="https://github.com/sisinflab/Graph-Characteristics">link</a></td>
+      <td>arXiv</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>Disentangling the Performance Puzzle of Multimodal-aware Recommender Systems</td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/papers/KDD.pdf">link</a></td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/KDD.pdf">link</a></td>
+      <td><a href="https://github.com/sisinflab/MultiModal-Eval">link</a></td>
+      <td>EvalRS@KDD</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>On Popularity Bias of Multimodal-aware Recommender Systems: a Modalities-driven Analysis</td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/papers/MM.pdf">link</a></td>
+      <td><a href="https://sisinflab.github.io/tutorial-gnns-recsys-log2023/assets/slides/MMIR.pdf">link</a></td>
+      <td><a href="https://github.com/sisinflab/MultiMod-Popularity-Bias">link</a></td>
+      <td>MMIR @ MM</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>Formalizing Multimedia Recommendation through Multimodal Deep Learning</td>
+      <td><a href="https://dl.acm.org/doi/pdf/10.1145/3662738">link</a></td>
+      <td> </td>
+      <td><a href="https://github.com/sisinflab/Formal-MultiMod-Rec">link</a></td>
+      <td>arXiv</td>
+      <td>2023</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tutorial-speakers">Tutorial speakers</h2>
+
+<h3 id="daniele-malitesta">Daniele Malitesta</h3>
+
+<p><em>Ph.D. Candidate at Polytechnic University of Bari (Italy)</em></p>
+
+<p>Email: <a href="mailto:daniele.malitesta@poliba.it">daniele.malitesta@poliba.it</a></p>
+
+<p>Website: <a href="https://danielemalitesta.github.io/">https://danielemalitesta.github.io/</a></p>
+
+<p><img src="https://danielemalitesta.github.io/images/profilo_new.jpeg" alt="Daniele Malitesta" width="200" /></p>
+
+<h3 id="claudio-pomo">Claudio Pomo</h3>
+
+<p><em>Research Fellow at Polytechnic University of Bari (Italy)</em></p>
+
+<p>Email: <a href="mailto:claudio.pomo@poliba.it">claudio.pomo@poliba.it</a></p>
+
+<p>Website: <a href="https://sisinflab.poliba.it/people/claudio-pomo/">https://sisinflab.poliba.it/people/claudio-pomo/</a></p>
+
+<p><img src="https://sisinflab.poliba.it/wp-content/uploads/2020/07/image2-1197215127-scaled.jpg" alt="Claudio Pomo" width="200" /></p>
+
+<h3 id="tommaso-di-noia">Tommaso Di Noia</h3>
+
+<p><em>Professor of Computer Science at Polytechnic University of Bari (Italy)</em></p>
+
+<p>Email: <a href="mailto:tommaso.dinoia@poliba.it">tommaso.dinoia@poliba.it</a></p>
+
+<p>Website: <a href="https://sisinflab.poliba.it/people/tommaso-di-noia/">https://sisinflab.poliba.it/people/tommaso-di-noia/</a></p>
+
+<p><img src="https://sisinflab.poliba.it/wp-content/uploads/2020/07/t_dinoia-506699224-315x270.png" alt="Tommaso Di Noia" width="200" /></p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/asirigawesha/GNN-tutorial">GNN-tutorial</a> is maintained by <a href="https://github.com/asirigawesha">asirigawesha</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
