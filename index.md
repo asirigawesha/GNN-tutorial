@@ -4,10 +4,6 @@ layout: default
 
 <!-- **\[UPDATE\]** We kindly ask you to fill in this [anonymous form](https://docs.google.com/forms/d/1Am4LBsYtyOVzo3axIRqYOC7vHOB5BQ9aSMyvTsjjF7I/edit) regarding the overall quality of the tutorial. As we are planning to present it to other venues, your feedback might be extremely important for us 🙏🙂 -->
 
-## Overview of the Tutorial
-
-This workshop is designed to provide participants with an in-depth understanding of TinyML (Tiny Machine Learning), focusing on compression techniques, practical applications like keyword spotting and plant disease identification, and the development of end-to-end pipelines. By combining theoretical insights and hands-on sessions, participants will gain the skills necessary to implement TinyML in real-world scenarios.
-
 ## **Facilitators Team**
 <p align="center">
   <table>
@@ -58,21 +54,6 @@ Sri Lanka Institute of Information Technology (SLIIT).
 | 10:40 – 11:20 (40 min) | - New frontiers of GNN                         | Mr. Jeewaka Perera         |
 | 11:20 – 11:30 (10 min) | - Q and A session                              | All resource persons will be present |
 
-
-## Target Audience
-This workshop is suitable for:
-- Machine learning enthusiasts, students, and professionals interested in edge AI.
-- Developers aiming to optimize ML models for resource-constrained devices.
-- Educators and researchers exploring the latest advancements in TinyML.
-
-## Learning Objectives
-
-Participants will:
-1. Understand the significance and applications of TinyML.
-2. Explore key model compression techniques: Quantization and Pruning.
-3. Develop TinyML models for head pose estimation.
-4. Gain proficiency in tools like Google Colab, TFLite, and Android Studio for TinyML deployment.
-5. Discover emerging research opportunities in TinyML and brainstorm innovative use cases.
 
 ## Workshop Agenda
 ### **Introduction**
@@ -129,6 +110,13 @@ By the end of the workshop, participants will:
 
 ## Facilitator Profiles
 
+### **Dr. Dharshana Kasthurirathne**
+<!-- ![Dr. Dinuka Sahabandu](path/to/image.jpg) -->
+Dharshana Kasthurirathna is an academic and researcher with a Doctor of Philosophy from the Complex Systems Research Group at the University of Sydney, Australia, specializing in complex
+networks and evolutionary game theory. He also holds a master’s in computer science from the University of Colombo, and a BSc (Hons) in Computer Science and Engineering from the University of Moratuwa. Currently serving as an Assistant Professor at the Department of Computer Science, Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT), Dharshana’s research interests encompass evolutionary game theory, network science, machine learning, distributed systems, and optimization. In 2022, Dr.Kasthurirathna was the main presenter at the ”Graph Neural Networks: Theory and Applications” workshop, held as part of the 4th Inter-
+national Conference on Advancements in Computing (ICAC). He also obtained a SLIIT research grant in 2023 as the principle investigator for developing a lightweight graph neural network based human action recognition framework. He is also a member of BrAIN Labs research group as well
+as The Center of Excellence for AI (COE-AI) research group at SLIIT.
+
 ### **Dr. Mahima Weerasighe**
 Mahima Weerasighe obtained a first class honours in B.Eng. in Electronic Engineering from
 Sheffield Hallam University, U.K., in 2011, and the M.Sc. degree in applied electronics from the
@@ -141,6 +129,25 @@ wellbeing. His current research interests include spiking neural networks, brain
 and computational neuroscience. He is a researcher of BrAIN Labs, a research and innovation
 consortium established to develop AI solutions for real-world challenges. He is also a member of
 the Center of Excellence for AI (COE-AI) research group at SLIIT
+
+### **Dr. Dinuka Sahabandu**
+<!-- ![Dr. Dinuka Sahabandu](path/to/image.jpg) -->
+Dinuka Sahabandu is a Senior Lecturer (HG) at the Department of Computer Science, Faculty of
+Computing, Sri Lanka Institute of Information Technology (SLIIT). He received his Ph.D. from
+the Department of Electrical and Computer Engineering at the University of Washington, Seattle,
+WA, USA. He earned his B.S. and M.S. degrees in Electrical Engineering from Washington State
+University, Pullman, WA, USA, in 2013 and 2016, respectively. His research interests include the
+security and privacy of machine learning algorithms, applications of game theory and learning for
+cybersecurity, and the control of multi-agent networks. He also share an interest in the theoretical
+aspects of graph neural networks and the application of graph neural networks in his research
+domains. He is also a member of BrAIN Labs research group as well as the Center of Excellence
+for AI (COE-AI) research group at SLIIT.
+
+### **Mr.Jeewaka Perera**
+Jeewaka Perera is a Senior Lecturer in the Department of Computer Science, Faculty of Computing,
+Sri Lanka Institute of Information Technology, Malabe, Sri Lanka. His research interests include multi-objective combinatorial optimization, graph neural networks, and reinforcement learning.
+His ongoing research includes Graph Neurual Networks, Graph Explainability and Biological AI. Mr. Perera received both his BSc. and MSc. in Computer Science from California State University,
+Fresno. He is also a member of BrAIN Labs research group as well as the Center of Excellence for AI (COE-AI) research group at SLIIT.
 
 ### **Mr. Sanka Mohottala**
 <!-- ![Mr. Sanka Mohottala](path/to/image.jpg) -->
@@ -164,33 +171,12 @@ research group at SLIIT.
 Asiri Gawesha is a Research Assistant and a MPhil candidate at the Department of Software
 Engineering, Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT). He previously contributing to a World Bank-funded project on the Culturally Sensitive Autism Assessment Tool (CSAAT). He holds a BSc in Electrical and Electronic Engineering from SLIIT,
 obtained in 2021. His research focuses on cutting-edge topics such as image processing, computer vision, edge computing, distributed computing, and cloud computing. His professional achievements include developing AI-powered autism screening tools, optimizing deep learning models for
-edge devices, and leading mobile app integrations for machine learning inference. He has published
-as an author at conferences like TENCON, CCWC and ICAC and furthermore, he has been involved in peer-review activities for IEEE conferences. He share an interest in graph neural network
-research areas like DeepSets and Transformers and have published work in those domains as well.
-He is also a member of BrAIN Labs research group as well as the Center of Excellence for AI
+edge devices, and leading mobile app integrations for machine learning inference. He has published as an author at conferences like TENCON, CCWC and ICAC and furthermore, he has been involved in peer-review activities for IEEE conferences. He share an interest in graph neural network
+research areas like DeepSets and Transformers and have published work in those domains as well. He is also a member of BrAIN Labs research group as well as the Center of Excellence for AI
 (COE-AI) research group at SLIIT.
 
-### **Dr. Dharshana Kasthurirathne**
-<!-- ![Dr. Dinuka Sahabandu](path/to/image.jpg) -->
-Dharshana Kasthurirathna is an academic and researcher with a Doctor of Philosophy from the
-Complex Systems Research Group at the University of Sydney, Australia, specializing in complex
-networks and evolutionary game theory. He also holds a master’s in computer science from the
-University of Colombo, and a BSc (Hons) in Computer Science and Engineering from the University of Moratuwa. Currently serving as an Assistant Professor at the Department of Computer Science, Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT), Dharshana’s research interests encompass evolutionary game theory, network science, machine learning, distributed systems, and optimization. In 2022, Dr.Kasthurirathna was the main presenter at the ”Graph Neural Networks: Theory and Applications” workshop, held as part of the 4th Inter-
-national Conference on Advancements in Computing (ICAC). He also obtained a SLIIT research grant in 2023 as the principle investigator for developing a lightweight graph neural network based human action recognition framework. He is also a member of BrAIN Labs research group as well
-as The Center of Excellence for AI (COE-AI) research group at SLIIT.
 
-### **Dr. Dinuka Sahabandu**
-<!-- ![Dr. Dinuka Sahabandu](path/to/image.jpg) -->
-Dinuka Sahabandu is a Senior Lecturer (HG) at the Department of Computer Science, Faculty of
-Computing, Sri Lanka Institute of Information Technology (SLIIT). He received his Ph.D. from
-the Department of Electrical and Computer Engineering at the University of Washington, Seattle,
-WA, USA. He earned his B.S. and M.S. degrees in Electrical Engineering from Washington State
-University, Pullman, WA, USA, in 2013 and 2016, respectively. His research interests include the
-security and privacy of machine learning algorithms, applications of game theory and learning for
-cybersecurity, and the control of multi-agent networks. He also share an interest in the theoretical
-aspects of graph neural networks and the application of graph neural networks in his research
-domains. He is also a member of BrAIN Labs research group as well as the Center of Excellence
-for AI (COE-AI) research group at SLIIT.
+
 
 
 ## Details of the presenters of this tutorial  
@@ -200,15 +186,11 @@ of this research group
 | Name                          Mobile      | Email Address          |
 |-------------------------------------------|------------------------|
 | Dr. Mahima Weerasinghe        | 070462552  | mahima.w@sliit.lk     |
-| Mr. Sanka Mohottala           | 0703975286 | sanka.m@sliit.lk      |
-| Mr. Asiri Gawesha             | 0767616895 | asiri.l@sliit.lk      |
-| Mr. Jeewaka Perera            | 0713771681 | jeewaka.p@sliit.lk    |
 | Dr. Dharshana Kasthurirathna  | 0777671672 | dharshana.k@sliit.lk  |
 | Dr. Dinuka Sahabandu          | 0777391621 | dinuka.s@sliit.lk     |
+| Mr. Jeewaka Perera            | 0713771681 | jeewaka.p@sliit.lk    |
+| Mr. Sanka Mohottala           | 0703975286 | sanka.m@sliit.lk      |
+| Mr. Asiri Gawesha             | 0767616895 | asiri.l@sliit.lk      |
 
-
-
-## Conclusion
-This workshop offers a comprehensive introduction to TinyML, emphasizing practical skills and future possibilities. Join us to unlock the potential of machine learning on tiny devices and revolutionize edge computing!
 
 
