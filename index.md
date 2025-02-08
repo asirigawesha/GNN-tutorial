@@ -14,8 +14,8 @@ layout: default
     </tr>
     <tr>
       <td align="center"><img src="assets/facilitators/jeewakap.jfif" width="200"><br>Mr. Jeewaka Perera</td>
-      <td align="center"><img src="assets/facilitators/sanka.jpg" width="200"><br>Mr. Sanka Mohottala</td>
       <td align="center"><img src="assets/facilitators/asiri.jpg" width="200"><br>Mr. Asiri Gawesha</td>  
+      <td align="center"><img src="assets/facilitators/sanka.jpg" width="200"><br>Mr. Sanka Mohottala</td>
     </tr>
   </table>
 </p>
