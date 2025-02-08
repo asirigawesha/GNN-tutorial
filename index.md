@@ -194,4 +194,14 @@ of this research group
 | Mr. Asiri Gawesha             | 0767616895 | asiri.l@sliit.lk      |
 
 
+# Resources
+
+ - [W. L. Hamilton, Graph Representation Learning Textbook](https://www.cs.mcgill.ca/~wlh/grl_book/)( freely available text book)
+ - [CS224: Machine Learning with Graphs 2021, Lecture Notes](http://web.stanford.edu/class/cs224w/)
+ - [Petar  Velickovic, Theoretical Foundations of Graph Neural Networks](https://www.youtube.com/watch?v=uF53xsT7mjc&t=2113s)
+ - [PyTorch Geometric Tutorials](https://pytorch-geometric.readthedocs.io/en/latest/notes/colabs.html)
+ - [Deep Graph Library Tutorials](https://docs.dgl.ai/guide/index.html) 
+ - [Aleksa  Gordic, GNN research paper explanations](https://www.youtube.com/playlist?list=PLBoQnSflObckArGNhOcNg7lQG_f0ZlHF5)
+ - [Learning on Graphs Conference, GNN oriented conference](https://logconference.org/)
+ - [LoGaG: Learning on Graphs and Geometry Reading Group](https://hannes-stark.com/logag-reading-group) 
 
