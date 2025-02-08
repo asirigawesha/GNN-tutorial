@@ -55,7 +55,8 @@ Sri Lanka Institute of Information Technology (SLIIT).
 | 11:20 – 11:30 (10 min) | - Q and A session                              | All resource persons will be present |
 
 
-## Workshop Agenda
+
+<!-- ## Workshop Agenda
 ### **Introduction**
 - **Objective:** Welcome participants, introduce TinyML, and outline workshop goals.
 - Agenda and logistics for the day.
@@ -79,19 +80,19 @@ Sri Lanka Institute of Information Technology (SLIIT).
   - Guide participants to use Android Studio for building an app integrating the trained model.
   - **Note:** Ensure participants have Android Studio pre-installed.
 
-### **Advanced Applications in TinyML**
+### **Advanced Applications in TinyML** -->
 
-## Required Materials and Prerequisites
+<!-- ## Required Materials and Prerequisites
 - A laptop with Google Colab access and Android Studio pre-installed.
 - Basic understanding of machine learning and Python programming.
 - Basic understanding of Android, Java, and Android Studio.
-- Enthusiasm for exploring TinyML applications!
+- Enthusiasm for exploring TinyML applications! -->
 
-## Outcomes
+<!-- ## Outcomes
 By the end of the workshop, participants will:
 - Design and optimize TinyML models using state-of-the-art techniques.
 - Deploy TinyML models on embedded devices and mobile applications.
-- Identify advanced applications of TinyML.
+- Identify advanced applications of TinyML. -->
 
 **Closing remarks and Q&A**: 10 minutes
 
