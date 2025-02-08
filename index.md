@@ -15,16 +15,11 @@ This workshop is designed to provide participants with an in-depth understanding
       <td align="center"><img src="assets/facilitators/dharshana.jpg" width="200"><br>Dr. Dharshana Kasthurirathne</td>
       <td align="center"><img src="assets/facilitators/mahima.jpg" width="200"><br>Dr. Mahima Weerasinghe</td>
        <td align="center"><img src="assets/facilitators/dinuka.jfif" width="200"><br>Dr. Dinuka Sahabandu</td>
-
     </tr>
     <tr>
-      <td></td>
       <td align="center"><img src="assets/facilitators/jeewakap.jfif" width="200"><br>Mr. Jeewaka Perera</td>
       <td align="center"><img src="assets/facilitators/sanka.jpg" width="200"><br>Mr. Sanka Mohottala</td>
-      <td align="center"><img src="assets/facilitators/asiri.jpg" width="200"><br>Mr. Asiri Gawesha</td>
-      
-     
-      <td></td>
+      <td align="center"><img src="assets/facilitators/asiri.jpg" width="200"><br>Mr. Asiri Gawesha</td>  
     </tr>
   </table>
 </p>
